@@ -17,5 +17,15 @@ public class LaunchBrowser
 		Reporter.log("Hello World!....",true);
 		driver.quit();
 	}
+	@Test
+	public void name1() 
+	{
+		WebDriver driver;
+		driver= new ChromeDriver();
+		driver.get("https://www.flipkart.com/");
+		Reporter.log("We got job",true);
+		driver.quit();
+		
+	}
 
 }
