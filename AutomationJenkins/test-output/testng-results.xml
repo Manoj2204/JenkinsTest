@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Hello World!....]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-08-08T15:40:11 IST" name="Default suite" finished-at="2023-08-08T15:40:29 IST" duration-ms="18100">
+    <groups>
+    </groups>
+    <test started-at="2023-08-08T15:40:11 IST" name="Default test" finished-at="2023-08-08T15:40:29 IST" duration-ms="18100">
+      <class name="programs.LaunchBrowser">
+        <test-method signature="name()[pri:0, instance:programs.LaunchBrowser@245b4bdc]" started-at="2023-08-08T15:40:11 IST" name="name" finished-at="2023-08-08T15:40:29 IST" duration-ms="18029" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Hello World!....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- name -->
+      </class> <!-- programs.LaunchBrowser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
